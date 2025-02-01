@@ -2,9 +2,9 @@ import { RouteObject, useRoutes } from "react-router-dom";
 import { RouteConfig } from "@shared/types/routes";
 import WrapWithLayout from "./helpers/WrapWithLayout";
 import MiddlewareExecuter from "./helpers/MiddlewareExecuter";
-import { ExampleRoutes } from "../features/example/ExampleRoutes";
+import { FeatureRoutes } from "@features/FeatureRoutes";
 
-const routes: RouteConfig[] = [...ExampleRoutes];
+const routes: RouteConfig[] = [...FeatureRoutes];
 
 const createRoute = (route: RouteConfig): RouteObject => {
   return {

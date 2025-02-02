@@ -20,7 +20,7 @@ This project serves as a sophisticated template for building modern web applicat
 1. **Clone the Repository**: 🛳️
 
    ```bash
-   git clone https://github.com/mishrababhishek/vite-template-advance-react-template
+   degit clone https://github.com/mishrababhishek/vite-template-advance-react-template
    cd vite-template-advance-react-template
    ```
 

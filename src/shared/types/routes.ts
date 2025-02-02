@@ -11,5 +11,4 @@ export type RouteConfig = {
   element: LazyExoticComponent<ComponentType<any>> | ComponentType<any>;
   children?: RouteConfig[];
   middlewares?: MiddlewareFunction[];
-  layout?: LazyExoticComponent<ComponentType<any>> | ComponentType<any>;
 };

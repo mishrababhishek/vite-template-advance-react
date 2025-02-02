@@ -11,7 +11,7 @@ const createRoute = (route: RouteConfig): RouteObject => {
     path: route.path,
     element: (
       <MiddlewareExecuter middlewares={route.middlewares}>
-        <WrapWithLayout element={route.element} layout={route.layout} />
+        <WrapWithLayout element={route.element} />
       </MiddlewareExecuter>
     ),
     children: !!route.children ? route.children.map((childRoute) => createRoute(childRoute)) : undefined,
